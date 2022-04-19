@@ -1,0 +1,43 @@
+.app {
+  margin-top: 120px;
+  font-family: sans-serif;
+  text-align: center;
+  min-height: 120vh;
+}
+
+.navbar-top {
+  padding: 0;
+  background: #dadada;
+  border-bottom: 2px solid #ccc;
+}
+
+.nav-link {
+  padding: 2px 20px;
+}
+
+.search-box {
+  height: 35px;
+}
+
+::-moz-focus-inner {
+  border: 0;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background: #f9f9f9;
+}
+
+*,
+:after,
+:before {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+  box-sizing: border-box;
+}
